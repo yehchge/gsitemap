@@ -1,0 +1,21 @@
+{
+    "name": "yehchge/gsitemap",
+    "version":"1.0.0",
+    "description": "generate google sitemap",
+    "type": "library",
+    "license":"MIT",
+    "minimum-stability": "stable",
+    "require-dev": {
+    },
+    "require": {
+        "php":">=5.3.0"
+    },
+    "archive": {
+        "exclude": ["*.sh", "tests/", "README.md", ".gitignore", "*.zip", "*.xml"]
+    },
+    "autoload": {
+        "psr-4": {
+           "yehchge\\gsitemap\\": "src/"
+       }
+    }
+}

@@ -1,6 +1,5 @@
 {
     "name": "yehchge/gsitemap",
-    "version":"1.0.2",
     "description": "generate google sitemap",
     "type": "library",
     "license":"MIT",

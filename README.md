@@ -18,7 +18,9 @@ Generate a sample sitemap.xml.
 ``` php
 <?php declare(strict_types=1);
 
-use yehchge\gsitemap\CSiteMap;
+include "vendor/autoload.php";
+
+use yehchge\gsitemap\GSiteMap;
 
 // sample sitemap.xml
 $GSiteMap = new GSiteMap();
@@ -47,7 +49,9 @@ Generate a sitemapindex.
 ``` php
 <?php declare(strict_types=1);
 
-use yehchge\gsitemap\CSiteMap;
+include "vendor/autoload.php";
+
+use yehchge\gsitemap\GSiteMap;
 
 // sample sitemap.xml
 $GSiteMap = new GSiteMap();
@@ -68,7 +72,6 @@ $GSiteMap->setPriority($NodeUrl, '0.8');
 
 // set full path and filename
 $GSiteMap->saveFile("sitemap_1.xml");
-
 
 // generate sitemap.xml (index)
 $NodeRoot = $GSiteMap->createIndex();

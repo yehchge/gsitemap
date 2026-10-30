@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInitebfb1259366323523dca8c5b642411a8
 {
     public static $prefixLengthsPsr4 = array (
-        'g' => 
+        'y' => 
         array (
-            'galaxytw\\utils\\' => 15,
+            'yehchge\\gsitemap\\' => 17,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'galaxytw\\utils\\' => 
+        'yehchge\\gsitemap\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -22,11 +22,7 @@ class ComposerStaticInitebfb1259366323523dca8c5b642411a8
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'galaxytw\\utils\\CDbShell' => __DIR__ . '/../..' . '/src/CDbShell.php',
-        'galaxytw\\utils\\CJavaScript' => __DIR__ . '/../..' . '/src/CJavaScript.php',
-        'galaxytw\\utils\\CMisc' => __DIR__ . '/../..' . '/src/CMisc.php',
-        'galaxytw\\utils\\CPageBar' => __DIR__ . '/../..' . '/src/CPageBar.php',
-        'galaxytw\\utils\\session' => __DIR__ . '/../..' . '/src/session.php',
+        'yehchge\\gsitemap\\GSiteMap' => __DIR__ . '/../..' . '/src/GSiteMap.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
